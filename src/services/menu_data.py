@@ -31,4 +31,9 @@ class MenuData:
             self.dishes.add(menu[dish])
 
 
-x = MenuData('data/menu_base_data.csv')
+x = set()
+x.add('Show')
+x.add('Ola')
+x.add('Ha')
+for i in x:
+    print(i)
